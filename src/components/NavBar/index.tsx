@@ -3,10 +3,10 @@ import { useState } from 'react';
 import { EnvelopeSimple, Phone, DotsThree } from '@phosphor-icons/react';
 
 export default function NavBar() {
-    const [handleWindows, setHandleWindows] = useState(false);
+    const [handleWindows, setHandleWindows] = useState(true);
 
     function tradeWindows() {
-        setHandleWindows(handleWindows === true ? false : true);
+        setHandleWindows(handleWindows === false ? true : false);
     }
 
     const styleBlock = handleWindows ? 'block' : ''; // Style Global
@@ -29,7 +29,7 @@ export default function NavBar() {
             <nav className={styles.nav_m}>
                 <p className={styles.title_m}>AGENCIA RAFFE</p>
                 <div className={`${styles.list_m} ${styleBlock}`}>
-                    <ul className={styles.list_m}>
+                    <ul>
                         <li>INICIO</li>
                         <li>CLIENTES</li>
                         <li>PERGUNTAS FREQUENTES</li>
