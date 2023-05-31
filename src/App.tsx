@@ -1,11 +1,12 @@
 import './App.css'
+import Layout from './template/Layout'
 
 function App() {
 
   return (
-    <div>
-      Agência Raffe
-    </div>
+    <>
+      <Layout />
+    </>
   )
 }
 
