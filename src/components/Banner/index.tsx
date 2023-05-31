@@ -1,5 +1,5 @@
 import styles from './Banner.module.scss';
-import Teste from '../../../public/img/StuckatHome.png';
+import Teste from '/img/StuckatHome.png';
 
 export default function Banner() {
     return (
