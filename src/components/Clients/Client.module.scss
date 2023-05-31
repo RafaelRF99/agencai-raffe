@@ -24,16 +24,11 @@
     }
 
     .part {
-        margin: 5rem 0;
+        margin: 5rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
 
         gap: 3rem;
-
-        :hover {
-            scale: 1.02;
-            transition: .5s;
-        }
     }
 }
