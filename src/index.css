@@ -1,3 +1,7 @@
+:root {
+  --height-navbar: 80px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
