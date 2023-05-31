@@ -1,0 +1,39 @@
+.container {
+    min-height: 100vh;
+    height: 100%;
+
+    background-color: #f4f4f4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+        margin-top: 30px;
+        font-weight: 300;
+    }
+
+    .feature {
+        height: 3px;
+        width: 50px;
+
+        border-radius: 1px;
+        margin-top: 20px;
+
+        background-color: #000;
+    }
+
+    .part {
+        margin: 5rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 3rem;
+
+        :hover {
+            scale: 1.02;
+            transition: .5s;
+        }
+    }
+}
