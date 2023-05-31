@@ -1,0 +1,18 @@
+.container {
+    height: 180px;
+    width: 100%;
+
+    margin-top: 3rem;
+
+    background-color: #000000de;
+    color: #FFF;
+
+    padding: 2rem 10rem;
+}
+
+@media (max-width: 610px ) {
+    .container {
+        text-align: center;
+        padding: 2rem 0;
+    }
+}

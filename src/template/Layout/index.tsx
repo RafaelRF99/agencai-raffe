@@ -1,5 +1,6 @@
 import Banner from '../../components/Banner';
 import Client from '../../components/Clients';
+import Footer from '../../components/Footer';
 import Form from '../../components/Form';
 import NavBar from '../../components/NavBar';
 import Questions from '../../components/Questions';
@@ -11,20 +12,11 @@ export default function Layout() {
             <div className={styles.top}>
                 <NavBar />
             </div>
-            <div className={styles.teste}>
-                <div className={styles.banner}>
-                    <Banner />
-                </div>
-                <div>
-                    <Client />
-                </div>
-                <div>
-                    <Questions />
-                </div>
-                <div>
-                    <Form />
-                </div>
-            </div>
+            <Banner />
+            <Client />
+            <Questions />
+            <Form />
+            <Footer />
         </div>
     );
 }
