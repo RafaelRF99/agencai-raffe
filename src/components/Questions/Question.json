@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Não recebi código de acesso pelo e-mail ou SMS",
+        "description": "SMS ou E-mail inválido (erro de digitação), e-mail de confirmação está na sua caixa de spam (Lixo Eletrônico), e-mail de confirmação ainda não chegou na sua caixa de e-mail ou SMS de confirmação depende da funcionalidade de mensagem está disponível ao celular pela operadora."
+    },
+    {
+        "title": "CPF inválido?",
+        "description": "A validação ocorre por verificação do CPF na base cadastral da Receita Federal."
+    },
+    {
+        "title": "O que é autenticação de dois fatores?",
+        "description": "Recurso que acrescenta uma camada adicional de segurança para o processo de autenticação da conta, exigindo que o usuário forneça duas formas de autenticação. A primeira forma é a sua senha. A segunda forma (fator) é código encaminhado pelo aplicativo gov.br."
+    },
+    {
+        "title": "Alterar Senha",
+        "description": "Você pode alterar a sua senha a qualquer tempo na opção Alterar Senha na tela inicial da Conta"
+    }
+]

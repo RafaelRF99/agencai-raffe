@@ -1,6 +1,7 @@
 import Banner from '../../components/Banner';
 import Client from '../../components/Clients';
 import NavBar from '../../components/NavBar';
+import Questions from '../../components/Questions';
 import styles from './Layout.module.scss';
 
 export default function Layout() {
@@ -15,6 +16,9 @@ export default function Layout() {
                 </div>
                 <div>
                     <Client />
+                </div>
+                <div>
+                    <Questions />
                 </div>
             </div>
         </div>
