@@ -1,3 +1,4 @@
+import Title from '../Title';
 import styles from './Client.module.scss';
 // COMPONENTS
 import Partnership from './Partnership';
@@ -17,8 +18,7 @@ function listPartnership() {
 export default function Client() {
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>CLIENTES</h1>
-            <hr className={styles.feature} />
+            <Title title="CLIENTES" />
             <div className={styles.part}>{listPartnership()}</div>
         </div>
     );
