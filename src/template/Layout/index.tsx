@@ -9,11 +9,13 @@ export default function Layout() {
             <div className={styles.top}>
                 <NavBar />
             </div>
-            <div>
-                <Banner />
-            </div>
-            <div>
-                <Client />
+            <div className={styles.teste}>
+                <div className={styles.banner}>
+                    <Banner />
+                </div>
+                <div>
+                    <Client />
+                </div>
             </div>
         </div>
     );

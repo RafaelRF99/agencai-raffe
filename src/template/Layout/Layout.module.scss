@@ -5,8 +5,8 @@
     min-height: 100vh;
 
     .top {
-        width: 100%;
-        position: sticky;
+        position: fixed;
         top: 0;
+        width: 100%;
     }
 }
