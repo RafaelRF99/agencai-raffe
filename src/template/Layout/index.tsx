@@ -1,5 +1,6 @@
 import Banner from '../../components/Banner';
 import Client from '../../components/Clients';
+import Form from '../../components/Form';
 import NavBar from '../../components/NavBar';
 import Questions from '../../components/Questions';
 import styles from './Layout.module.scss';
@@ -19,6 +20,9 @@ export default function Layout() {
                 </div>
                 <div>
                     <Questions />
+                </div>
+                <div>
+                    <Form />
                 </div>
             </div>
         </div>
