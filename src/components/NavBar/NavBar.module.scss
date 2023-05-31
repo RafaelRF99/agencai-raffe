@@ -1,0 +1,144 @@
+.container {
+    width: 100%;
+    background-color: #000000de;
+    color: #FFF;
+    padding: 1rem 0;
+
+    .nav {
+        width: 100%;
+        height: 80px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        font-weight: bold;
+
+        margin-right: 7rem;
+    }
+
+    .list {
+        display: flex;
+
+        gap: 1.2rem;
+    }
+
+    .list li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .select {
+        border-top: 1px solid #FFF;
+    }
+
+    .icons {
+        margin-left: 1rem;
+
+        cursor: pointer;
+
+        display: flex;
+        gap: 1rem;
+    }
+
+}
+
+// RESPONSIVENESS
+.container {
+    .nav_m {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+}
+
+// MOBILE
+@media (max-width: 900px) {
+    .container {
+        display: flex;
+        align-items: center;
+
+        .nav {
+            display: none;
+        }
+
+        .nav_m {
+            display: flex;
+            flex-direction: column;
+
+            flex-grow: 1;
+
+            padding-left: 1rem;
+
+            .icons_m {
+                display: flex;
+                gap: .7rem;
+            }
+
+            .icons_m span {
+                display: flex;
+
+                border: 1px solid #FFF;
+                padding: 4px 8px;
+
+                gap: .5rem;
+                cursor: pointer;
+            }
+
+        }
+
+        .nav_m .list_m {
+            padding-left: 1rem;
+        }
+
+        // MOBILE
+        .title_m {
+            display: flex;
+            align-items: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+
+            margin-left: 2rem;
+            height: 80px;
+        }
+
+        .list_m {
+            flex-direction: column;
+            margin: .4rem 0;
+        }
+
+        .list_m li {
+            max-width: 250px;
+
+            list-style: none;
+            cursor: pointer;
+
+            padding: .4rem 0;
+        }
+
+        .btn {
+            display: flex;
+            align-self: flex-start;
+            justify-content: center;
+
+            background-color: transparent;
+            border: 1px solid #FFF;
+            cursor: pointer;
+
+            width: 2.5rem;
+            height: 2.5rem;
+
+            margin: 1.2rem 2rem 0 0;
+
+            :hover {
+                scale: 1.1;
+            }
+        }
+    }
+}
